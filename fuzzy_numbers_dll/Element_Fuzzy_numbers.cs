@@ -9,7 +9,7 @@ namespace fuzzy_numbers_dll
     /// <summary>
     /// Элемент нечёткого числа
     /// </summary>
- public class Element_Fuzzy_numbers<Tip_Element> : fuzzy_numbers_dll.IElement_Fuzzy_numbers<Tip_Element>  where Tip_Element : System.IComparable<Tip_Element>, IEquatable<Tip_Element>
+    public class Element_Fuzzy_numbers<Tip_Element> : ICloneable, IEquatable<Object>, fuzzy_numbers_dll.IElement_Fuzzy_numbers<Tip_Element> where Tip_Element : System.IComparable<Tip_Element>, IEquatable<Tip_Element>
     {
         #region Переменные класса
         /// <summary>
@@ -131,7 +131,7 @@ namespace fuzzy_numbers_dll
         /// Создаёт глубокую копию объекта
         /// </summary>
         /// <returns>Возвращает глубокую копию объекта</returns>
-        public Element_Fuzzy_numbers<Tip_Element> Clone()
+        public Object Clone()
         {
             return new Element_Fuzzy_numbers<Tip_Element>(Element, Accessory_Function);
         }

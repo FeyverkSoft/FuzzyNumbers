@@ -1,0 +1,552 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>fuzzy_numbers_dll</name>
+    </assembly>
+    <members>
+        <member name="T:fuzzy_numbers_dll.Element_Fuzzy_numbers`1">
+            <summary>
+            Элемент нечёткого числа
+            </summary>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IElement_Fuzzy_numbers`1.Clone">
+            <summary>
+            Создаёт глубокую копию объекта
+            </summary>
+            <returns>Возвращает глубокую копию объекта</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IElement_Fuzzy_numbers`1.Equals(System.Object)">
+            <summary>
+            Переопределение базового сравнения
+            </summary>
+            <param name="obj">Объект для сравнения с текущим</param>
+            <returns>true если равны false иначе</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IElement_Fuzzy_numbers`1.GetHashCode">
+            <summary>
+            Возвращает хеш-код
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IElement_Fuzzy_numbers`1.ToString">
+            <summary>
+            Возвращает строковое представление данного элемента нечеткого числа
+            </summary>
+            <returns>Строковое предствавление элемента нечеткого числа</returns>
+        </member>
+        <member name="P:fuzzy_numbers_dll.IElement_Fuzzy_numbers`1.Accessory_Function">
+            <summary>
+            [read only] Возвращает значение функции принадлежности элемента к нечёткому числу
+            </summary>
+        </member>
+        <member name="P:fuzzy_numbers_dll.IElement_Fuzzy_numbers`1.Element">
+            <summary>
+            [read only] Возвращает элемент нечёткого числу
+            </summary>
+        </member>
+        <member name="F:fuzzy_numbers_dll.Element_Fuzzy_numbers`1.element">
+            <summary>
+            Элемент числа
+            </summary>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Element_Fuzzy_numbers`1.#ctor(`0,System.Double)">
+            <summary>
+            Конструктор, принимает элемент числа, и функцию принадлежности
+            </summary>
+            <param name="Element">Элемент числа</param>
+            <param name="Accessory_Function">Функция принадлежности</param>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Element_Fuzzy_numbers`1.#ctor">
+            <summary>
+            Конструктор, по умолчанию
+            </summary>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Element_Fuzzy_numbers`1.op_Equality(fuzzy_numbers_dll.Element_Fuzzy_numbers{`0},fuzzy_numbers_dll.Element_Fuzzy_numbers{`0})">
+            <summary>
+            Сравнивает 2 элемента числа, и если они РАВНЫ возвращает true в противном случае false 
+            </summary>
+            <param name="a">Первый элемент для сравнения</param>
+            <param name="b">Второй элемент для сравнения</param>
+            <returns>Если элементы равны true иначе false</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Element_Fuzzy_numbers`1.op_Inequality(fuzzy_numbers_dll.Element_Fuzzy_numbers{`0},fuzzy_numbers_dll.Element_Fuzzy_numbers{`0})">
+            <summary>
+            Сравнивает 2 элемента числа, и если они НЕ РАВНЫ возвращает true в противном случае false 
+            </summary>
+            <param name="a">Первый элемент для сравнения</param>
+            <param name="b">Второй элемент для сравнения</param>
+            <returns>Если элементы НЕ РАВНЫ true иначе false</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Element_Fuzzy_numbers`1.op_LogicalNot(fuzzy_numbers_dll.Element_Fuzzy_numbers{`0})">
+            <summary>
+            Отрицает элемент нечёткого числа
+            </summary>
+            <param name="a">Элемент для отрицания</param>
+            <returns>Возвращает обратный элемент данному</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Element_Fuzzy_numbers`1.Clone">
+            <summary>
+            Создаёт глубокую копию объекта
+            </summary>
+            <returns>Возвращает глубокую копию объекта</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Element_Fuzzy_numbers`1.GetHashCode">
+            <summary>
+            Возвращает хеш-код
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Element_Fuzzy_numbers`1.Equals(System.Object)">
+            <summary>
+            Переопределение базового сравнения
+            </summary>
+            <param name="obj">Объект для сравнения с текущим</param>
+            <returns>true если равны false иначе</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Element_Fuzzy_numbers`1.ToString">
+            <summary>
+            Возвращает строковое представление данного элемента нечеткого числа
+            </summary>
+            <returns>Строковое предствавление элемента нечеткого числа</returns>
+        </member>
+        <member name="P:fuzzy_numbers_dll.Element_Fuzzy_numbers`1.Accessory_Function">
+            <summary>
+            [read only] Возвращает значение функции принадлежности элемента к нечёткому числу
+            </summary>
+        </member>
+        <member name="P:fuzzy_numbers_dll.Element_Fuzzy_numbers`1.Element">
+            <summary>
+            [read only] Возвращает элемент нечёткого числу
+            </summary>
+        </member>
+        <member name="T:fuzzy_numbers_dll.Element_Fuzzy_numbers`1.fuzzu">
+            <summary>
+            структура описывающая 1 элемент нечёткого числа
+            </summary>
+        </member>
+        <member name="P:fuzzy_numbers_dll.Element_Fuzzy_numbers`1.fuzzu.Element">
+            <summary>
+            Элемент нечеткого числа
+            </summary>
+        </member>
+        <member name="P:fuzzy_numbers_dll.Element_Fuzzy_numbers`1.fuzzu.Accessory_Function">
+            <summary>
+            функция принадлежности элемента, данному числу (от 0 до 1)
+            </summary>
+        </member>
+        <member name="T:fuzzy_numbers_dll.Fuzzy_numbers`1">
+            <summary>
+            Нечёткое число с базовыми операторами
+            </summary>
+            <typeparam name="Tip_Element">Тип значения нечеткого числа (необходима реализация IComparable)</typeparam>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.Add(fuzzy_numbers_dll.Element_Fuzzy_numbers{`0})">
+            <summary>
+            Добавляет в нечёткое число новый элемент.
+            </summary>
+            <param name="Element">Элемент нечёткого числа</param>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.Add(`0,System.Double)">
+            <summary>
+            Добавляет в нечёткое число новый элемент.
+            </summary>
+            <param name="Element">Элемент нечёткого числа</param>
+            <param name="Accessory_Function">Значение функции принадлежества элемента к нечёткому числу</param>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.Clone">
+            <summary>
+            Возвращает глубокую копию нечёткого числа
+            </summary>
+            <returns>Возвращает глубокую копию нечёткого числа</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.ContainsAccessoryFunction(System.Double)">
+            <summary>
+            Определяет содержится ли в данном нечётком числе элемент с указанном значением функции принадлежности
+            </summary>
+            <param name="AccessoryFunction">Значение функции принадлежности</param>
+            <returns>true - если содержится, иначе false</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.ContainsElement(`0)">
+            <summary>
+            Определяет содержатся ли в нечетком числе заданный элемент
+            </summary>
+            <param name="Element">Элемент при записи (функция принадложности)/(Элемент)</param>
+            <returns>true - если содержится, иначе false</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.ContainsFuzzyElement(fuzzy_numbers_dll.Element_Fuzzy_numbers{`0})">
+            <summary>
+            Определяет содержится ли в данном нечётком числе указанный элемент нечёткого числа
+            </summary>
+            <param name="FuzzyElement">Элемент нечёткого числа</param>
+            <returns>true - если содержится, иначе false</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.Delete(fuzzy_numbers_dll.Element_Fuzzy_numbers{`0})">
+            <summary>
+            Удаляет из нечёткого числа указанный элемент.
+            </summary>
+            <param name="Element">Элемент нечёткого числа</param>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.Delete(`0,System.Double)">
+            <summary>
+            Удаляет из нечёткого числа указанный элемент.
+            </summary>
+            <param name="Element">Элемент нечёткого числа</param>
+            <param name="Accessory_Function">Значение функции принадлежества элемента к нечёткому числу</param>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.DeleteAt(System.Int32)">
+            <summary>
+            Удаляет из нечёткого числа элемент по указанному индексу.
+            </summary>
+            <param name="Index">Индекс элемента нечёткого числа</param>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.Equals(System.Object)">
+            <summary>
+            Переопределение базового сравнения
+            </summary>
+            <param name="obj">Объект для сравнения с текущим</param>
+            <returns>true если равны false иначе</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.GetEnumerator">
+            <summary>
+            Создает и возвращает "перечислитель", позволяющий перебирать в цикле все элементы списка.
+            </summary>
+            <returns>возвращает "перечислитель", позволяющий перебирать в цикле все элементы списка.</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.GetHashCode">
+            <summary>
+            Возвращает хеш-код
+            </summary>
+            <returns>Возвращает хеш-код нечеткого числа, уникальность не гарантируется</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.MoveNext">
+            <summary>
+            Сдвинуть счетчик на +1 и если индекс не превысил допустимый вернуть true
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.Reset">
+            <summary>
+            Сброс счетчика
+            </summary>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.ReturnElementForAccessoryFunction(System.Double)">
+            <summary>
+            Определяет содержится ли в данном нечётком числе элемент с указанном значением функции принадлежности
+            И возвращает ПЕРВЫЙ элемент содержащий её если такой есть
+            </summary>
+            <param name="AccessoryFunction">Значение функции принадлежности</param>
+            <returns>Елемент с данной вункцией принадлежности</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.ReturnElementForElement(`0)">
+            <summary>
+            Определяет содержатся ли в нечетком числе заданный элемент
+            И возвращает первое вхождение элемента в данном числе
+            </summary>
+            <param name="Element">Элемент при записи (функция принадложности)/(Элемент)</param>
+            <returns>Елемент нечеткого множества</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.ReturnIndexForElement(`0)">
+            <summary>
+            Определяет содержатся ли в нечетком числе заданный элемент
+            И возвращает номер первого вхождения
+            </summary>
+            <param name="Element">Элемент при записи (функция принадложности)/(Элемент)</param>
+            <returns>Номер первого вхождения</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.IFuzzy_numbers`1.ToString">
+            <summary>
+            Возвращает строковое представление нечеткого числа;
+            </summary>
+            <returns>Возвращает строковое представление нечеткого числа;</returns>
+        </member>
+        <member name="P:fuzzy_numbers_dll.IFuzzy_numbers`1.Count">
+            <summary>
+            Получает количество элементов в нечётком числе
+            </summary>
+        </member>
+        <member name="P:fuzzy_numbers_dll.IFuzzy_numbers`1.Current">
+            <summary>
+            Элемент на текущей позиции
+            </summary>
+        </member>
+        <member name="P:fuzzy_numbers_dll.IFuzzy_numbers`1.Name">
+            <summary>
+            [read only] Возвращает название числа
+            </summary>
+        </member>
+        <member name="P:fuzzy_numbers_dll.IFuzzy_numbers`1.Sort_from_Accessory_Function">
+            <summary>
+            Возвращает отсортированное по Функции принадлежности  в порядке возрастания нечеткое число
+            </summary>
+        </member>
+        <member name="P:fuzzy_numbers_dll.IFuzzy_numbers`1.Sort_from_Element">
+            <summary>
+            Возвращает отсортированное по Элементу в порядке возрастания принадлежности нечеткое число
+            </summary>
+        </member>
+        <member name="P:fuzzy_numbers_dll.IFuzzy_numbers`1.Item(System.Int32)">
+            <summary>
+            [Желательно Read only] Возвращает или задаёт элемент по указанному индексу
+            </summary>
+            <param name="i"></param>
+            <returns></returns>
+        </member>
+        <member name="F:fuzzy_numbers_dll.Fuzzy_numbers`1.Mass">
+            <summary>
+            Список элементов нечеткого числа
+            </summary>
+        </member>
+        <member name="F:fuzzy_numbers_dll.Fuzzy_numbers`1.name">
+            <summary>
+            Название числа если нужно
+            </summary>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.GetEnumerator">
+            <summary>
+            Создает и возвращает "перечислитель", позволяющий перебирать в цикле все элементы списка.
+            </summary>
+            <returns>возвращает "перечислитель", позволяющий перебирать в цикле все элементы списка.</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.MoveNext">
+            <summary>
+            Сдвинуть счетчик на +1 и если индекс не превысил допустимый вернуть true
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.Reset">
+            <summary>
+            Сброс счетчика
+            </summary>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.#ctor(fuzzy_numbers_dll.Fuzzy_numbers{`0},System.String)">
+            <summary>
+            Конструктор нечёткого числа 
+            </summary>
+            <param name="Mass">Нечёткое число</param>
+            <param name="name">Название нечёткого числа</param>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.#ctor(System.Collections.Generic.List{fuzzy_numbers_dll.Element_Fuzzy_numbers{`0}},System.String)">
+            <summary>
+            Конструктор нечёткого числа 
+            </summary>
+            <param name="Mass">Список элементов нечёткого числа</param>
+            <param name="name">Название нечёткого числа</param>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.#ctor(fuzzy_numbers_dll.Element_Fuzzy_numbers{`0}[],System.String)">
+            <summary>
+            Конструктор нечёткого числа 
+            </summary>
+            <param name="Mass">Массив элементов нечёткого числа</param>
+            <param name="name">Название нечёткого числа</param>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.#ctor(System.String)">
+            <summary>
+            Конструктор нечёткого числа 
+            </summary>
+            <param name="name">Название нечёткого числа</param>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.GetHashCode">
+            <summary>
+            Возвращает хеш-код
+            </summary>
+            <returns>Возвращает хеш-код нечеткого числа, уникальность не гарантируется</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.Equals(System.Object)">
+            <summary>
+            Переопределение базового сравнения
+            </summary>
+            <param name="obj">Объект для сравнения с текущим</param>
+            <returns>true если равны false иначе</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.ToString">
+            <summary>
+            Возвращает строковое представление нечеткого числа;
+            </summary>
+            <returns>Возвращает строковое представление нечеткого числа;</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.Clone">
+            <summary>
+            Возвращает глубокую копию нечёткого числа
+            </summary>
+            <returns>Возвращает глубокую копию нечёткого числа</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.ContainsElement(`0)">
+            <summary>
+            Определяет содержатся ли в нечетком числе заданный элемент
+            </summary>
+            <param name="Element">Элемент при записи (функция принадложности)/(Элемент)</param>
+            <returns>true - если содержится, иначе false</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.ReturnIndexForElement(`0)">
+            <summary>
+            Определяет содержатся ли в нечетком числе заданный элемент
+            И возвращает номер первого вхождения
+            </summary>
+            <param name="Element">Элемент при записи (функция принадложности)/(Элемент)</param>
+            <returns>Номер первого вхождения</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.ReturnElementForElement(`0)">
+            <summary>
+            Определяет содержатся ли в нечетком числе заданный элемент
+            И возвращает первое вхождение элемента в данном числе
+            </summary>
+            <param name="Element">Элемент при записи (функция принадложности)/(Элемент)</param>
+            <returns>Елемент нечеткого множества</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.ContainsAccessoryFunction(System.Double)">
+            <summary>
+            Определяет содержится ли в данном нечётком числе элемент с указанном значением функции принадлежности
+            </summary>
+            <param name="AccessoryFunction">Значение функции принадлежности</param>
+            <returns>true - если содержится, иначе false</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.ReturnElementForAccessoryFunction(System.Double)">
+            <summary>
+            Определяет содержится ли в данном нечётком числе элемент с указанном значением функции принадлежности
+            И возвращает ПЕРВЫЙ элемент содержащий её если такой есть
+            </summary>
+            <param name="AccessoryFunction">Значение функции принадлежности</param>
+            <returns>Елемент с данной вункцией принадлежности</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.ContainsFuzzyElement(fuzzy_numbers_dll.Element_Fuzzy_numbers{`0})">
+            <summary>
+            Определяет содержится ли в данном нечётком числе указанный элемент нечёткого числа
+            </summary>
+            <param name="FuzzyElement">Элемент нечёткого числа</param>
+            <returns>true - если содержится, иначе false</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.Add(fuzzy_numbers_dll.Element_Fuzzy_numbers{`0})">
+            <summary>
+            Добавляет в нечёткое число новый элемент.
+            </summary>
+            <param name="Element">Элемент нечёткого числа</param>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.Add(`0,System.Double)">
+            <summary>
+            Добавляет в нечёткое число новый элемент.
+            </summary>
+            <param name="Element">Элемент нечёткого числа</param>
+            <param name="Accessory_Function">Значение функции принадлежества элемента к нечёткому числу</param>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.Delete(fuzzy_numbers_dll.Element_Fuzzy_numbers{`0})">
+            <summary>
+            Удаляет из нечёткого числа указанный элемент.
+            </summary>
+            <param name="Element">Элемент нечёткого числа</param>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.Delete(`0,System.Double)">
+            <summary>
+            Удаляет из нечёткого числа указанный элемент.
+            </summary>
+            <param name="Element">Элемент нечёткого числа</param>
+            <param name="Accessory_Function">Значение функции принадлежества элемента к нечёткому числу</param>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.DeleteAt(System.Int32)">
+            <summary>
+            Удаляет из нечёткого числа элемент по указанному индексу.
+            </summary>
+            <param name="Index">Индекс элемента нечёткого числа</param>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.op_Addition(fuzzy_numbers_dll.Fuzzy_numbers{`0},fuzzy_numbers_dll.Fuzzy_numbers{`0})">
+            <summary>
+            Складывает 2 нечётких числа
+            </summary>
+            <param name="a">Первое нечёткое число для сложения</param>
+            <param name="b">Второе нечёткое число для сложения</param>
+            <returns>Нечёткое число результат сложения двух нечётких чисел</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.op_Subtraction(fuzzy_numbers_dll.Fuzzy_numbers{`0},fuzzy_numbers_dll.Fuzzy_numbers{`0})">
+            <summary>
+            Вычитает 2 нечётких числа
+            </summary>
+            <param name="a">Первое нечёткое число для разницы</param>
+            <param name="b">Второе нечёткое число для разницы</param>
+            <returns>Нечёткое число результат разницы двух нечётких чисел</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.op_Multiply(fuzzy_numbers_dll.Fuzzy_numbers{`0},fuzzy_numbers_dll.Fuzzy_numbers{`0})">
+            <summary>
+            Умножает 2 нечётких числа
+            </summary>
+            <param name="a">Первое нечёткое число для умножения</param>
+            <param name="b">Второе нечёткое число для умножения</param>
+            <returns>Нечёткое число результат произведения двух нечётких чисел</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.op_Division(fuzzy_numbers_dll.Fuzzy_numbers{`0},fuzzy_numbers_dll.Fuzzy_numbers{`0})">
+            <summary>
+            Делит 2 нечётких числа
+            </summary>
+            <param name="a">Первое нечёткое число делимое</param>
+            <param name="b">Второе нечёткое число делитель</param>
+            <returns>частное двух нечётких чисел</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.op_Equality(fuzzy_numbers_dll.Fuzzy_numbers{`0},fuzzy_numbers_dll.Fuzzy_numbers{`0})">
+            <summary>
+            Сравнивает 2 нечётких числа если равны true
+            </summary>
+            <param name="a">Первое число для сравнения</param>
+            <param name="b">Второе число для сравнения</param>
+            <returns>Результат сравнения двух нечётких чисел, если числа равны то true иначе false</returns>
+        </member>
+        <member name="M:fuzzy_numbers_dll.Fuzzy_numbers`1.op_Inequality(fuzzy_numbers_dll.Fuzzy_numbers{`0},fuzzy_numbers_dll.Fuzzy_numbers{`0})">
+            <summary>
+            Сравнивает 2 нечётких числа если не равны true
+            </summary>
+            <param name="a">Первое число для сравнения</param>
+            <param name="b">Второе число для сравнения</param>
+            <returns>Результат сравнения двух нечётких чисел, если числа не равны то true иначе false</returns>
+        </member>
+        <member name="P:fuzzy_numbers_dll.Fuzzy_numbers`1.Current">
+            <summary>
+            Элемент на текущей позиции
+            </summary>
+        </member>
+        <member name="P:fuzzy_numbers_dll.Fuzzy_numbers`1.Name">
+            <summary>
+            [read only] Возвращает название числа
+            </summary>
+        </member>
+        <member name="P:fuzzy_numbers_dll.Fuzzy_numbers`1.Item(System.Int32)">
+            <summary>
+            [Желательно Read only] Возвращает или задаёт элемент по указанному индексу
+            </summary>
+            <param name="i"></param>
+            <returns></returns>
+        </member>
+        <member name="P:fuzzy_numbers_dll.Fuzzy_numbers`1.Count">
+            <summary>
+            Получает количество элементов в нечётком числе
+            </summary>
+        </member>
+        <member name="P:fuzzy_numbers_dll.Fuzzy_numbers`1.Sort_from_Accessory_Function">
+            <summary>
+            Возвращает отсортированное по Функции принадлежности  в порядке возрастания нечеткое число
+            </summary>
+        </member>
+        <member name="P:fuzzy_numbers_dll.Fuzzy_numbers`1.Sort_from_Element">
+            <summary>
+            Возвращает отсортированное по Элементу в порядке возрастания принадлежности нечеткое число
+            </summary>
+        </member>
+        <member name="T:fuzzy_numbers_dll.sort`1">
+            <summary>
+            Класс сортирующий нечёткие числа
+            </summary>
+        </member>
+        <member name="M:fuzzy_numbers_dll.sort`1.qSort_from_Element(fuzzy_numbers_dll.Fuzzy_numbers{`0},System.Int32,System.Int32)">
+            <summary>
+            Сортировка нечёткого числа по значению элемента числа
+            </summary>
+            <param name="A">Нечёткое число</param>
+            <param name="low">Начальный элемент</param>
+            <param name="high">Конечный элемент</param>
+        </member>
+        <member name="M:fuzzy_numbers_dll.sort`1.qSort_from_Accessory_Function(fuzzy_numbers_dll.Fuzzy_numbers{`0},System.Int32,System.Int32)">
+            <summary>
+            Сортировка нечёткого числа по значению функции принадлежности элемента числа
+            </summary>
+            <param name="A">Нечёткое число</param>
+            <param name="low">Начальный элемент</param>
+            <param name="high">Конечный элемент</param>
+        </member>
+    </members>
+</doc>

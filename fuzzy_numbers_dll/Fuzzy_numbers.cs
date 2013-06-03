@@ -10,7 +10,7 @@ namespace fuzzy_numbers_dll
     /// Нечёткое число с базовыми операторами
     /// </summary>
     /// <typeparam name="Tip_Element">Тип значения нечеткого числа (необходима реализация IComparable)</typeparam>
-    public class Fuzzy_numbers<Tip_Element> : IEnumerable, IEnumerator, IEquatable<Object>, fuzzy_numbers_dll.IFuzzy_numbers<Tip_Element> where Tip_Element : System.IComparable<Tip_Element>, IEquatable<Tip_Element>
+    public class Fuzzy_numbers<Tip_Element> : ICloneable, IEnumerable, IEnumerator, IEquatable<Object>, fuzzy_numbers_dll.IFuzzy_numbers<Tip_Element> where Tip_Element : System.IComparable<Tip_Element>, IEquatable<Tip_Element>
     {
         #region Переменные класса
         /// <summary>
@@ -219,7 +219,7 @@ namespace fuzzy_numbers_dll
         /// Возвращает глубокую копию нечёткого числа
         /// </summary>
         /// <returns>Возвращает глубокую копию нечёткого числа</returns>
-        public Fuzzy_numbers<Tip_Element> Clone()
+        public Object Clone()
         {
             return new Fuzzy_numbers<Tip_Element>(Mass, Name);
         }
