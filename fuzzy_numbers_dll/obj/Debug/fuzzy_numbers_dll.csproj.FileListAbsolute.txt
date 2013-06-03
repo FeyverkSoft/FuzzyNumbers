@@ -1,0 +1,9 @@
+D:\programming\Нечёткие\fuzzy_numbers\fuzzy_numbers_dll\bin\Debug\fuzzy_numbers_dll.dll
+D:\programming\Нечёткие\fuzzy_numbers\fuzzy_numbers_dll\bin\Debug\fuzzy_numbers_dll.pdb
+D:\programming\Нечёткие\fuzzy_numbers\fuzzy_numbers_dll\obj\Debug\fuzzy_numbers_dll.dll
+D:\programming\Нечёткие\fuzzy_numbers\fuzzy_numbers_dll\obj\Debug\fuzzy_numbers_dll.pdb
+E:\Нечёткие\fuzzy_numbers\fuzzy_numbers_dll\obj\Debug\fuzzy_numbers_dll.dll
+E:\Нечёткие\fuzzy_numbers\fuzzy_numbers_dll\obj\Debug\fuzzy_numbers_dll.pdb
+E:\Нечёткие\fuzzy_numbers\fuzzy_numbers_dll\bin\Debug\fuzzy_numbers_dll.dll
+E:\Нечёткие\fuzzy_numbers\fuzzy_numbers_dll\bin\Debug\fuzzy_numbers_dll.pdb
+D:\programming\Нечёткие\fuzzy_numbers\fuzzy_numbers_dll\obj\Debug\fuzzy_numbers_dll.csprojResolveAssemblyReference.cache

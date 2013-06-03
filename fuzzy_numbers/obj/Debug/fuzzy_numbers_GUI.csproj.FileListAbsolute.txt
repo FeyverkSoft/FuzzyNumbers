@@ -1,0 +1,11 @@
+D:\programming\Нечёткие\fuzzy_numbers\fuzzy_numbers\bin\Debug\fuzzy_numbers.exe
+D:\programming\Нечёткие\fuzzy_numbers\fuzzy_numbers\bin\Debug\fuzzy_numbers.pdb
+D:\programming\Нечёткие\fuzzy_numbers\fuzzy_numbers\bin\Debug\fuzzy_numbers_dll.dll
+D:\programming\Нечёткие\fuzzy_numbers\fuzzy_numbers\bin\Debug\fuzzy_numbers_dll.pdb
+D:\programming\Нечёткие\fuzzy_numbers\fuzzy_numbers\obj\Debug\fuzzy_numbers_GUI.csprojResolveAssemblyReference.cache
+D:\programming\Нечёткие\fuzzy_numbers\fuzzy_numbers\obj\Debug\fuzzy_numbers.Form1.resources
+D:\programming\Нечёткие\fuzzy_numbers\fuzzy_numbers\obj\Debug\fuzzy_numbers.Graphics1.resources
+D:\programming\Нечёткие\fuzzy_numbers\fuzzy_numbers\obj\Debug\fuzzy_numbers.Properties.Resources.resources
+D:\programming\Нечёткие\fuzzy_numbers\fuzzy_numbers\obj\Debug\fuzzy_numbers_GUI.csproj.GenerateResource.Cache
+D:\programming\Нечёткие\fuzzy_numbers\fuzzy_numbers\obj\Debug\fuzzy_numbers.exe
+D:\programming\Нечёткие\fuzzy_numbers\fuzzy_numbers\obj\Debug\fuzzy_numbers.pdb
